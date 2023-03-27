@@ -163,6 +163,7 @@ In this section, we'll cover the core concepts of JavaScript, including:
 	let boolean = true;
 	let object = { key: "value" };
 	let array = [1, 2, 3]
+	```
 
 - **Operators and Control Structures**: We'll explore basic operators for arithmetic, comparison, and logical operations. Additionally, we'll discuss control structures like `if`, `else`, `for`, and `while`.
 	```javascript 
