@@ -146,6 +146,11 @@
 
 JavaScript was created in 1995 by Brendan Eich, who was working at Netscape at the time. Originally named Mocha, it was soon renamed to LiveScript, and finally to JavaScript. The language has evolved over the years with the introduction of new ECMAScript standards. Today, we have modern JavaScript, which includes features from ES6 and later versions.
 
+- **Practice**:
+1. Who created JavaScript and in what year?
+2. What is ECMAScript and what is its relation to JavaScript?
+
+
 ### 2. JavaScript Fundamentals (1 hour)
 
 In this section, we'll cover the core concepts of JavaScript, including:
@@ -192,6 +197,11 @@ In this section, we'll cover the core concepts of JavaScript, including:
 	  console.log("Hello, " + name);
 	};
 	 ```
+- **Practice**:
+1. What is the difference between `let`, `const`, and `var`?
+2. List the primitive data types in JavaScript.
+3. How do you declare a function in JavaScript? Provide an example of a function declaration and an arrow function.
+4. What are the different types of loops available in JavaScript? Provide an example of a `for` loop and a `forEach` loop.
 
 ### 3. Asynchronous JavaScript (1 hour)
 
@@ -253,6 +263,10 @@ to chain `.then()` and `.catch()` methods for success and error handling.
 
 	getData();
 	 ```
+- **Practice**:
+1. What is a callback function? Provide an example.
+2. What is a promise and how do you create one in JavaScript? Provide an example.
+3. Explain the concept of async/await and provide an example.
 
 ### 4. Working with DOM and Events (30 minutes)
 
@@ -274,6 +288,11 @@ The Document Object Model (DOM) is a tree-like representation of an HTML documen
 	  event.stopPropagation();
 	});
 	 ```
+- **Practice**:
+1. What is the Document Object Model (DOM)?
+2. How do you select an element by its ID and class name in JavaScript?
+3. Provide an example of adding an event listener to a button that logs a message when clicked.
+4. What is event propagation? Explain event capturing and event bubbling.
 
 ## Afternoon: Introduction to Vue.js (3 hours)
 
@@ -281,11 +300,15 @@ The Document Object Model (DOM) is a tree-like representation of an HTML documen
 
 Vue.js is a progressive JavaScript framework for building user interfaces. It was created by Evan You in 2014 and has since become a popular choice for developers. Key concepts and benefits of Vue.js include its reactive data binding, component-based architecture, and excellent performance.
 
+-**Practice**:
+1. Who created Vue.js and in what year?
+2. What are some key concepts and benefits of using Vue.js?
+
 ### 2. Creating a Vue Instance (30 minutes)
 
 A Vue instance is an object that manages the state and behavior of a portion of the DOM. We'll cover:
 
-- **Vue Instance Properties and Methods**: Vue instances have properties like `$data`, `$el`, and `$options`, and methods like `$watch` and `$nextTick`.
+-**Vue Instance Properties and Methods**: Vue instances have properties like `$data`, `$el`, and `$options`, and methods like `$watch` and `$nextTick`.
 	```javascript
 	const app = new Vue({
 	  el: "#app",
@@ -300,7 +323,7 @@ A Vue instance is an object that manages the state and behavior of a portion of 
 	});
 	```
 
-- **-   Reactive data and the virtual DOM**:  When the underlying data changes. The virtual DOM is an in-memory representation of the actual DOM, which Vue.js uses to efficiently update the DOM by minimizing changes.
+- **Reactive data and the virtual DOM**:  When the underlying data changes. The virtual DOM is an in-memory representation of the actual DOM, which Vue.js uses to efficiently update the DOM by minimizing changes.
 	```javascript
 	<!DOCTYPE html>
 	<html>
@@ -330,6 +353,10 @@ A Vue instance is an object that manages the state and behavior of a portion of 
 	</body>
 	</html>
 	```
+-**Practice**:
+1. What is a Vue instance?
+2. How do you create a new Vue instance? Provide an example.
+3. What are some important Vue instance properties and methods?
 
 ### 3. Directives and Components (1 hour)
 
@@ -361,6 +388,9 @@ Vue.component("example-component", {
 
 <example-component title="Hello, Vue!"></example-component>
 ```
+-**Practice**:
+1. What is a Vue directive? Provide examples of built-in directives.
+2. What is a Vue component? How do you create a custom Vue component?
 
 ### 4. Handling Events and Binding Data (1 hour)
 
@@ -391,3 +421,7 @@ Vue.js provides a simple and efficient way to handle events and bind data.
 	});
 	<input type="text" v-model="inputText">
 	 ```
+-**Practice**:
+1. How do you handle events in Vue.js? Provide an example using the `v-on` directive.
+2. What is two-way data binding in Vue.js? Provide an example using the `v-model` directive.
+
